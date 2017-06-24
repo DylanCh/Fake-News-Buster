@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Fake News Buster
 //
-//  Created by AAA on 6/21/17.
+//  Created by Hanjun Chen on 6/24/17.
 //  Copyright © 2017 dylanhelps.com. All rights reserved.
 //
 

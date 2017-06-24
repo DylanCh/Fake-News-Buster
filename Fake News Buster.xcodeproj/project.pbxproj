@@ -12,6 +12,8 @@
 		0064E98E1EFB260B00A78D9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0064E98C1EFB260B00A78D9A /* Main.storyboard */; };
 		0064E9901EFB260B00A78D9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0064E98F1EFB260B00A78D9A /* Assets.xcassets */; };
 		0064E9931EFB260B00A78D9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0064E9911EFB260B00A78D9A /* LaunchScreen.storyboard */; };
+		0064E99B1EFB26FD00A78D9A /* AnalyzeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0064E99A1EFB26FD00A78D9A /* AnalyzeViewController.swift */; };
+		00A494FB1EFCBAE500585BDB /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A494FA1EFCBAE500585BDB /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0064E98F1EFB260B00A78D9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0064E9921EFB260B00A78D9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0064E9941EFB260B00A78D9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0064E99A1EFB26FD00A78D9A /* AnalyzeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyzeViewController.swift; sourceTree = "<group>"; };
+		00A494FA1EFCBAE500585BDB /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				0064E98F1EFB260B00A78D9A /* Assets.xcassets */,
 				0064E9911EFB260B00A78D9A /* LaunchScreen.storyboard */,
 				0064E9941EFB260B00A78D9A /* Info.plist */,
+				0064E99A1EFB26FD00A78D9A /* AnalyzeViewController.swift */,
+				00A494FA1EFCBAE500585BDB /* ResultViewController.swift */,
 			);
 			path = "Fake News Buster";
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				0064E98B1EFB260B00A78D9A /* ViewController.swift in Sources */,
 				0064E9891EFB260B00A78D9A /* AppDelegate.swift in Sources */,
+				0064E99B1EFB26FD00A78D9A /* AnalyzeViewController.swift in Sources */,
+				00A494FB1EFCBAE500585BDB /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +310,7 @@
 				0064E9991EFB260B00A78D9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
